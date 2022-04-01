@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Frontend Mentor | Todo app</title>
+
+ 
+</head>
+<body>
+  <main>
+    <header>
+      <h1>T O D O</h1>
+      <button><img src="./images/icon-sun.svg" alt=""></button>
+    </header>
+    <div class="input-field margin-bottom">
+      <input type="radio">
+      <label for="html"></label>
+      <input type="text" id="html" placeholder="Curently typing">
+    </div>
+
+    <ul id="list">
+      <li>
+        <div class="input-field">
+          <input type="radio">
+          <label for="html"></label>
+          <input type="text" id="html" value="OVO JE SAMO ZA TEST">
+        </div>
+        <hr>
+      </li>
+     
+    </ul>
+    <footer>
+      <p>item left</p>
+      <div class="actions">
+        <a href="">All</a>
+        <a href="">Active</a>
+        <a href="">Complite</a>
+      </div>
+      <a href="">Clear Complite</a>
+    </footer>
+  </main>
+  <button id="button" onclick="getInput()"></button>
+</body> 
+<script src="./script/script.js"></script>
+
+
+</html>
